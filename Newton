@@ -1,0 +1,7 @@
+// Converting Celsius to Newton. Equation = Newton = Celsius * (33/100)
+ 
+var Celsius = 293; 
+const Fahrenheight = Celsius * (9/5) + 32;
+let Newton = Celsius * (33/100);
+Newton = Math.floor(Newton);
+console.log(`The temperature is ${Newton} degrees Newton.`);

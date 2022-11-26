@@ -1,0 +1,17 @@
+// The forecast today is 293 Kelvin. Variable named Kelvin has been set equal to 293.
+var Kelvin = 293; 
+const Celsius = Kelvin - 273; 
+// Celsius is 273 degrees less than Kelvin.
+let Fahrenheit = Celsius * (9/5) + 32;
+// Calculating Farenheit using equation: Fahrenheit = Celsius * (9/5) + 32
+Fahrenheit = Math.floor(Fahrenheit);
+// Converting Celsius to Fahrenheit often creates a decimal number. Math Floor helps round down the Fahrenheit.
+console.log(`The temperature is ${Fahrenheit} degrees Fahrenheit.`);
+
+// Just testing another variable. 0 Kelvin = Fahrenheit? 
+var Kelvin = 0;
+const Celsius = Kelvin - 273; 
+let Fahrenheit = Celsius * (9/5) + 32;
+Fahrenheit = Math.floor(Fahrenheit);
+console.log(`The temperature is ${Fahrenheit} degrees Fahrenheit.`);
+// Answer: The temperature is -460 degrees Fahrenheit. 
